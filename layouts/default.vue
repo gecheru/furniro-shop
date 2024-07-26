@@ -6,9 +6,7 @@
 </template>
 
 <script setup lang="ts">
-  const b = ref('classname')
+// const b = ref("class");
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
