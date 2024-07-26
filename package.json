@@ -7,10 +7,22 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "lint:prettier": "prettier . --check",
+    "lint:prettier:fix": "prettier . --write"
   },
   "dependencies": {
+    "@nuxt/eslint": "^0.3.13",
+    "@nuxt/fonts": "^0.7.1",
+    "@nuxt/ui": "^2.18.2",
     "nuxt": "^3.12.3",
     "vue": "latest"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "prettier": "^3.3.3"
   }
 }
