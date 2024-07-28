@@ -17,6 +17,7 @@
     "@nuxt/eslint": "^0.3.13",
     "@nuxt/fonts": "^0.7.1",
     "@nuxt/ui": "^2.18.2",
+    "@vercel/speed-insights": "^1.0.12",
     "nuxt": "^3.12.3",
     "vue": "latest"
   },
