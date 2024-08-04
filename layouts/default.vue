@@ -1,12 +1,23 @@
 <template>
   <div>
-    <div class="p-4 font-medium">main menu</div>
+    <UHorizontalNavigation :links="links" :ui="ui" />
     <slot />
   </div>
 </template>
 
 <script setup lang="ts">
-// const b = ref("class");
+import type { HorizontalNavigationLink } from "#ui/types";
+
+const links: HorizontalNavigationLink[] = [
+  {
+    label: "Furniro",
+    click: () => null,
+  },
+];
+
+const ui = /* ui */ {
+  wrapper: "bg-white",
+};
 </script>
 
-<style scoped></style>
+<style></style>
